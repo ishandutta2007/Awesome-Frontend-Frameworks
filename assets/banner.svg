@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <!-- Accent Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4;#8b5cf6;#ec4899;#06b6d4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1;#ec4899;#06b6d4;#6366f1" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899;#06b6d4;#8b5cf6;#ec4899" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glowLeft" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowRight" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+    </pattern>
+
+    <style>
+      .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #38bdf8; letter-spacing: 1.5px; text-transform: uppercase; }
+      .main-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 52px; font-weight: 900; fill: url(#titleGrad); letter-spacing: -0.5px; }
+      .sub-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #cbd5e1; letter-spacing: 0.5px; }
+      .tag-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 500; fill: #e2e8f0; }
+
+      /* Animation keyframes */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(3deg); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-18px) rotate(-4deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes beamMove {
+        0% { transform: translateX(-1200px); }
+        100% { transform: translateX(1200px); }
+      }
+
+      .floating-node-1 { animation: floatSlow 7s ease-in-out infinite; transform-origin: center; }
+      .floating-node-2 { animation: floatFast 9s ease-in-out infinite 1s; transform-origin: center; }
+      .floating-node-3 { animation: floatSlow 8s ease-in-out infinite 2s; transform-origin: center; }
+      .pulsing-orb { animation: pulseGlow 5s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Glows -->
+  <circle cx="240" cy="100" r="220" fill="url(#glowLeft)" class="pulsing-orb" />
+  <circle cx="960" cy="240" r="240" fill="url(#glowRight)" class="pulsing-orb" style="animation-delay: 2.5s;" />
+
+  <!-- Subtle Grid -->
+  <rect width="1200" height="360" rx="16" fill="url(#grid)" />
+
+  <!-- Dynamic Animated Tech Nodes / Geometric Accents in Background (never obscuring text) -->
+  <g class="floating-node-1">
+    <circle cx="120" cy="80" r="5" fill="#38bdf8" opacity="0.6" />
+    <circle cx="170" cy="140" r="3" fill="#818cf8" opacity="0.5" />
+    <line x1="120" y1="80" x2="170" y2="140" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3" opacity="0.3" />
+    <rect x="90" y="240" width="36" height="36" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" opacity="0.35" transform="rotate(25 108 258)" />
+  </g>
+
+  <g class="floating-node-2">
+    <circle cx="1060" cy="90" r="6" fill="#f472b6" opacity="0.5" />
+    <circle cx="1110" cy="150" r="4" fill="#c084fc" opacity="0.6" />
+    <line x1="1060" y1="90" x2="1110" y2="150" stroke="#f472b6" stroke-width="1" stroke-dasharray="3 3" opacity="0.3" />
+    <polygon points="1070,250 1090,285 1050,285" fill="#1e293b" stroke="#ec4899" stroke-width="1.5" opacity="0.35" />
+  </g>
+
+  <g class="floating-node-3">
+    <circle cx="80" cy="170" r="3" fill="#34d399" opacity="0.5" />
+    <circle cx="1130" cy="210" r="4" fill="#fbbf24" opacity="0.5" />
+  </g>
+
+  <!-- Foreground Content Area (Centered & Prominent) -->
+
+  <!-- Top Category Pill -->
+  <g transform="translate(600, 52)">
+    <rect x="-175" y="-15" width="350" height="30" rx="15" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="-145" cy="0" r="4" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="-132" y="4.5" class="badge-text">⚡ CURATED ECOSYSTEM GUIDE • 2026</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(600, 135)">
+    <!-- Subtle title shadow for crisp readability -->
+    <text text-anchor="middle" y="2" class="main-title" fill="#020617" opacity="0.5">Awesome Frontend Frameworks</text>
+    <text text-anchor="middle" y="0" class="main-title">Awesome Frontend Frameworks</text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600, 185)">
+    <text text-anchor="middle" class="sub-title">Modern Architectures • Fine-Grained Reactivity • Meta-Frameworks • Frontend Cloud</text>
+  </g>
+
+  <!-- Tech Tags / Framework Pills Bar -->
+  <g transform="translate(600, 260)">
+    <!-- Pill 1: React -->
+    <g transform="translate(-450, 0)">
+      <rect x="-42" y="-16" width="84" height="32" rx="16" fill="#1e293b" stroke="#61dafb" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">⚛️ React</text>
+    </g>
+    <!-- Pill 2: Vue.js -->
+    <g transform="translate(-340, 0)">
+      <rect x="-44" y="-16" width="88" height="32" rx="16" fill="#1e293b" stroke="#42b883" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">💚 Vue.js</text>
+    </g>
+    <!-- Pill 3: Next.js -->
+    <g transform="translate(-230, 0)">
+      <rect x="-45" y="-16" width="90" height="32" rx="16" fill="#1e293b" stroke="#94a3b8" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">▲ Next.js</text>
+    </g>
+    <!-- Pill 4: Svelte -->
+    <g transform="translate(-120, 0)">
+      <rect x="-44" y="-16" width="88" height="32" rx="16" fill="#1e293b" stroke="#ff3e00" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">🧡 Svelte</text>
+    </g>
+    <!-- Pill 5: Angular -->
+    <g transform="translate(-10, 0)">
+      <rect x="-46" y="-16" width="92" height="32" rx="16" fill="#1e293b" stroke="#dd0031" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">🅰️ Angular</text>
+    </g>
+    <!-- Pill 6: Astro -->
+    <g transform="translate(100, 0)">
+      <rect x="-42" y="-16" width="84" height="32" rx="16" fill="#1e293b" stroke="#ff5d01" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">🚀 Astro</text>
+    </g>
+    <!-- Pill 7: Solid.js -->
+    <g transform="translate(205, 0)">
+      <rect x="-44" y="-16" width="88" height="32" rx="16" fill="#1e293b" stroke="#446b9e" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">🔷 Solid.js</text>
+    </g>
+    <!-- Pill 8: htmx -->
+    <g transform="translate(310, 0)">
+      <rect x="-40" y="-16" width="80" height="32" rx="16" fill="#1e293b" stroke="#336699" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">⚡ htmx</text>
+    </g>
+    <!-- Pill 9: Nuxt -->
+    <g transform="translate(415, 0)">
+      <rect x="-40" y="-16" width="80" height="32" rx="16" fill="#1e293b" stroke="#00dc82" stroke-width="1.2" fill-opacity="0.7" />
+      <text text-anchor="middle" y="5" class="tag-text">⛰️ Nuxt</text>
+    </g>
+  </g>
+
+  <!-- Bottom Glowing Accent Line with Running Light Beam -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#borderGrad)" />
+</svg>
