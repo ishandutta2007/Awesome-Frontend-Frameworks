@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Frontend-Frameworks?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Frontend-Frameworks?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Frontend-Frameworks?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -60,12 +60,12 @@ Below is an overview of major SaaS frontend cloud platforms and managed deployme
 
 ## 📦 Top Open-Source Frontend Frameworks (Ranked by Stars)
 
-The following open-source frameworks and meta-frameworks are **sorted in descending order by GitHub star count**. Each entry includes live GitHub star count badges linking directly to their official stargazers community.
+The following open-source frameworks and meta-frameworks are **sorted in descending order by GitHub Stars_Count**. Each entry includes live GitHub Stars_Count badges linking directly to their official stargazers community.
 
 ---
 
 ### 1. [React](https://github.com/facebook/react) ⚛️
-[![GitHub stars](https://img.shields.io/github/stars/facebook/react?style=social&color=white)](https://github.com/facebook/react/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/facebook/react?style=social&color=white)](https://github.com/facebook/react/stargazers)
 
 * **Architecture & Reactivity:** Virtual DOM with Fiber reconciler, React Hooks, Suspense for data fetching, React Server Components (RSC), and optional ahead-of-time memoizing compiler (React Compiler).
 * **Market Share & Community:** Category leader with ~44.7% industry market share; massive global ecosystem of packages, state managers, and enterprise talent pool.
@@ -75,7 +75,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 2. [Next.js](https://github.com/vercel/next.js) ▲
-[![GitHub stars](https://img.shields.io/github/stars/vercel/next.js?style=social&color=white)](https://github.com/vercel/next.js/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/vercel/next.js?style=social&color=white)](https://github.com/vercel/next.js/stargazers)
 
 * **Architecture & Reactivity:** The flagship full-stack React meta-framework; features App Router, React Server Components (RSC), Server Actions, Turbopack Rust-based bundler, and Hybrid Rendering (SSG, SSR, ISR).
 * **Market Share & Community:** The primary production standard for modern React web applications; backed by Vercel with extensive community adoption.
@@ -85,7 +85,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 3. [Angular](https://github.com/angular/angular) 🅰️
-[![GitHub stars](https://img.shields.io/github/stars/angular/angular?style=social&color=white)](https://github.com/angular/angular/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/angular/angular?style=social&color=white)](https://github.com/angular/angular/stargazers)
 
 * **Architecture & Reactivity:** Full-featured enterprise platform; features TypeScript-first architecture, dependency injection, reactive Signals for zoneless change detection, deferrable views (`@defer`), and hydration-friendly SSR.
 * **Market Share & Community:** ~18.2% market share; deeply entrenched in enterprise IT, banking, healthcare, and mission-critical enterprise dashboards.
@@ -95,7 +95,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 4. [Svelte / SvelteKit](https://github.com/sveltejs/svelte) 🧡
-[![GitHub stars](https://img.shields.io/github/stars/sveltejs/svelte?style=social&color=white)](https://github.com/sveltejs/svelte/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/sveltejs/svelte?style=social&color=white)](https://github.com/sveltejs/svelte/stargazers)
 
 * **Architecture & Reactivity:** Zero-virtual-DOM compiled framework; transforms declarative component markup into ultra-efficient surgical DOM mutations at build time. Svelte 5 introduces universal Runes (`$state`, `$derived`, `$effect`) for fine-grained reactivity.
 * **Market Share & Community:** Exceptional developer satisfaction scores; benchmark-topping runtime performance and minimal client bundle overhead.
@@ -105,7 +105,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 5. [Astro](https://github.com/withastro/astro) 🚀
-[![GitHub stars](https://img.shields.io/github/stars/withastro/astro?style=social&color=white)](https://github.com/withastro/astro/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/withastro/astro?style=social&color=white)](https://github.com/withastro/astro/stargazers)
 
 * **Architecture & Reactivity:** Content-first web framework pioneering Component Island architecture; delivers zero JavaScript to the browser by default and selectively hydrates interactive components (React, Vue, Svelte, Preact, Solid) only when needed.
 * **Market Share & Community:** Rapidly adopted as the leading modern static site generator (SSG) and content management framework.
@@ -115,7 +115,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 6. [Nuxt](https://github.com/nuxt/nuxt) ⛰️
-[![GitHub stars](https://img.shields.io/github/stars/nuxt/nuxt?style=social&color=white)](https://github.com/nuxt/nuxt/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/nuxt/nuxt?style=social&color=white)](https://github.com/nuxt/nuxt/stargazers)
 
 * **Architecture & Reactivity:** Intuitive full-stack meta-framework for Vue 3; built on Vite and Nitro engine; features file-system routing, automatic component imports, universal rendering (SSR/SSG), and multi-engine deployment presets.
 * **Market Share & Community:** The undisputed default meta-framework for Vue.js developers with an active plugin ecosystem.
@@ -125,7 +125,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 7. [Vue.js](https://github.com/vuejs/core) 💚
-[![GitHub stars](https://img.shields.io/github/stars/vuejs/core?style=social&color=white)](https://github.com/vuejs/core/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/vuejs/core?style=social&color=white)](https://github.com/vuejs/core/stargazers)
 
 * **Architecture & Reactivity:** Progressive JavaScript framework with an approachable HTML-based template syntax; features Composition API, reactive Proxies, single-file components (SFCs), and fine-grained Vapor Mode for compilation without Virtual DOM overhead.
 * **Market Share & Community:** ~17.6% market share; beloved for its gentle learning curve, crystal-clear official documentation, and balanced ecosystem.
@@ -135,7 +135,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 8. [htmx](https://github.com/bigskysoftware/htmx) ⚡
-[![GitHub stars](https://img.shields.io/github/stars/bigskysoftware/htmx?style=social&color=white)](https://github.com/bigskysoftware/htmx/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/bigskysoftware/htmx?style=social&color=white)](https://github.com/bigskysoftware/htmx/stargazers)
 
 * **Architecture & Reactivity:** High-power extensions for standard HTML; enables AJAX calls, CSS transitions, WebSockets, and Server-Sent Events (SSE) directly via HTML attributes (`hx-get`, `hx-post`, `hx-swap`, `hx-target`), bypassing heavyweight client-side JS bundles.
 * **Market Share & Community:** Leading the "hypermedia-driven application" (HDA) movement; popular among Go, Python/Django, Ruby on Rails, and Elixir developers.
@@ -145,7 +145,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 9. [Preact](https://github.com/preactjs/preact) 🪶
-[![GitHub stars](https://img.shields.io/github/stars/preactjs/preact?style=social&color=white)](https://github.com/preactjs/preact/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/preactjs/preact?style=social&color=white)](https://github.com/preactjs/preact/stargazers)
 
 * **Architecture & Reactivity:** Featherweight 3 kB React alternative featuring identical modern Virtual DOM and Hooks APIs; ships `preact/compat` for drop-in interoperability with the broader npm React ecosystem.
 * **Market Share & Community:** Powers high-traffic web properties (including Etsy, dev.to, and Google search widgets) requiring hyper-optimized bundle footprints.
@@ -155,7 +155,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 10. [Solid.js](https://github.com/solidjs/solid) 🔷
-[![GitHub stars](https://img.shields.io/github/stars/solidjs/solid?style=social&color=white)](https://github.com/solidjs/solid/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/solidjs/solid?style=social&color=white)](https://github.com/solidjs/solid/stargazers)
 
 * **Architecture & Reactivity:** Truly reactive UI library compiling JSX directly into real DOM node operations without any Virtual DOM; updates fine-grained reactive primitives (Signals) independently without re-executing component functions.
 * **Market Share & Community:** Consistently tops developer satisfaction indexes (90%+ retention) and independent JS performance benchmarks.
@@ -165,7 +165,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 11. [Remix](https://github.com/remix-run/remix) 💿
-[![GitHub stars](https://img.shields.io/github/stars/remix-run/remix?style=social&color=white)](https://github.com/remix-run/remix/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/remix-run/remix?style=social&color=white)](https://github.com/remix-run/remix/stargazers)
 
 * **Architecture & Reactivity:** Full-stack web framework built atop React Router and modern Web Fetch standards; emphasizes nested routing, progressive enhancement, native HTML form submissions, and robust optimistic UI updates.
 * **Market Share & Community:** Maintained by the React Router core team; deeply respected for adhering to core web fundamentals.
@@ -175,7 +175,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 12. [Alpine.js](https://github.com/alpinejs/alpine) 🏔️
-[![GitHub stars](https://img.shields.io/github/stars/alpinejs/alpine?style=social&color=white)](https://github.com/alpinejs/alpine/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/alpinejs/alpine?style=social&color=white)](https://github.com/alpinejs/alpine/stargazers)
 
 * **Architecture & Reactivity:** Rugged, lightweight declarative framework (~15 kB) for orchestrating behavior directly in HTML markup using intuitive directives (`x-data`, `x-bind`, `x-on`); functions as a modern declarative jQuery replacement.
 * **Market Share & Community:** The primary frontend companion for Laravel (TALL stack), Livewire, Django, and static site generators.
@@ -185,7 +185,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 13. [Ember.js](https://github.com/emberjs/ember.js) 🐹
-[![GitHub stars](https://img.shields.io/github/stars/emberjs/ember.js?style=social&color=white)](https://github.com/emberjs/ember.js/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/emberjs/ember.js?style=social&color=white)](https://github.com/emberjs/ember.js/stargazers)
 
 * **Architecture & Reactivity:** Opinionated productivity framework built on the Glimmer rendering engine; features automated routing, standardized data layer (Ember Data), and long-term support (LTS) release cadence.
 * **Market Share & Community:** Trusted for massive enterprise web clients (Apple Music, LinkedIn, Square) that require decade-long stability.
@@ -195,7 +195,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 14. [Qwik](https://github.com/QwikDev/qwik) ⚡
-[![GitHub stars](https://img.shields.io/github/stars/QwikDev/qwik?style=social&color=white)](https://github.com/QwikDev/qwik/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/QwikDev/qwik?style=social&color=white)](https://github.com/QwikDev/qwik/stargazers)
 
 * **Architecture & Reactivity:** Revolutionary framework introducing **Resumability**; serializes execution state directly into server-rendered HTML, eliminating client hydration altogether and downloading JavaScript chunks strictly upon user interaction.
 * **Market Share & Community:** Founded by Misko Hevery (creator of AngularJS); pioneering the next generation of instant-loading web apps.
@@ -205,7 +205,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 15. [Lit](https://github.com/lit/lit) 🔥
-[![GitHub stars](https://img.shields.io/github/stars/lit/lit?style=social&color=white)](https://github.com/lit/lit/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/lit/lit?style=social&color=white)](https://github.com/lit/lit/stargazers)
 
 * **Architecture & Reactivity:** Ultra-fast, lightweight library (~5 kB) built on native browser **Web Components**; utilizes tagged template literals for reactive state rendering and scoped shadow DOM encapsulation without virtual DOM overhead.
 * **Market Share & Community:** Google-backed standard widely used in multi-brand enterprise design systems (Adobe Spectrum, Cisco, Microsoft, Google Workspace).
@@ -215,7 +215,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 16. [Inferno](https://github.com/infernojs/inferno) 🏎️
-[![GitHub stars](https://img.shields.io/github/stars/infernojs/inferno?style=social&color=white)](https://github.com/infernojs/inferno/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/infernojs/inferno?style=social&color=white)](https://github.com/infernojs/inferno/stargazers)
 
 * **Architecture & Reactivity:** Extremely fast, React-like JavaScript library designed specifically for peak rendering speeds and minimal memory consumption; provides component-level recycling and an isomorphic virtual DOM.
 * **Market Share & Community:** Long-standing benchmark champion for high-throughput client rendering.
@@ -225,7 +225,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 17. [Marko](https://github.com/marko-js/marko) 🎯
-[![GitHub stars](https://img.shields.io/github/stars/marko-js/marko?style=social&color=white)](https://github.com/marko-js/marko/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/marko-js/marko?style=social&color=white)](https://github.com/marko-js/marko/stargazers)
 
 * **Architecture & Reactivity:** HTML-first, streaming-optimized language and framework pioneered at eBay; streams HTML chunks progressively to the client as asynchronous data resolves and hydrates only interactive tags.
 * **Market Share & Community:** Powers eBay's high-traffic multi-billion dollar e-commerce storefront.
@@ -235,7 +235,7 @@ The following open-source frameworks and meta-frameworks are **sorted in descend
 ---
 
 ### 18. [Stencil](https://github.com/ionic-team/stencil) 💎
-[![GitHub stars](https://img.shields.io/github/stars/ionic-team/stencil?style=social&color=white)](https://github.com/ionic-team/stencil/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ionic-team/stencil?style=social&color=white)](https://github.com/ionic-team/stencil/stargazers)
 
 * **Architecture & Reactivity:** Compiler that generates standards-compliant, native Web Components; features TypeScript support, virtual DOM, reactive data-binding, and automated bindings generation for React, Vue, and Angular.
 * **Market Share & Community:** Created by the Ionic team; powers millions of cross-platform components worldwide.
@@ -272,7 +272,7 @@ We welcome community contributions, corrections, and new entries!
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-framework`).
 3. 📝 **Add or edit entries** in `README.md` keeping descriptions factual, concise, and adhering to the established table/badge formatting.
-4. 🌟 Ensure any new open-source entries include valid GitHub star badges and links to their stargazers page.
+4. 🌟 Ensure any new open-source entries include valid GitHub Stars_Badges and links to their stargazers page.
 5. 🚀 **Submit a Pull Request** with a brief summary of the added framework or cloud provider.
 
 ---
