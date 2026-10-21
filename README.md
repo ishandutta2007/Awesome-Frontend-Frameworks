@@ -10,6 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Frontend-Frameworks/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Frontend-Frameworks?style=flat-square" alt="GitHub Last Commit"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -29,6 +30,8 @@ Whether you are architecting a high-scale enterprise single-page application (SP
 - [📦 Top Open-Source Frontend Frameworks (Ranked by Stars)](#-top-open-source-frontend-frameworks-ranked-by-stars)
 - [🧭 Architecture & Selection Matrix](#-architecture--selection-matrix)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#--star-history)
 - [⚖️ Disclaimer & License](#️-disclaimer--license)
 
 ---
@@ -271,6 +274,27 @@ We welcome community contributions, corrections, and new entries!
 3. 📝 **Add or edit entries** in `README.md` keeping descriptions factual, concise, and adhering to the established table/badge formatting.
 4. 🌟 Ensure any new open-source entries include valid GitHub star badges and links to their stargazers page.
 5. 🚀 **Submit a Pull Request** with a brief summary of the added framework or cloud provider.
+
+---
+
+## 💖 Support
+
+A huge thank you to all contributors, developers, and open-source maintainers who make the modern frontend ecosystem vibrant and accessible!
+
+If you find this curated directory helpful for your projects, research, or team stack selection, please consider supporting the project:
+* 🌟 **Star this repository** to show appreciation and help others discover it.
+* 🍴 **Fork and share** with your network, team, and developer communities.
+* ☕ **Buy me a coffee / sponsor the project** on GitHub to support continuous updates and open-source research:
+  
+  [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+  
+  👉 **[Visit Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)**
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Frontend-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Frontend-Frameworks&type=date&legend=top-left)
 
 ---
 
